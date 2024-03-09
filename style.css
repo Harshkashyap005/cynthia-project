@@ -1,0 +1,301 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans', sans-serif;
+   
+   
+   
+
+}
+
+.bounding{
+    width: fit-content;
+    
+    overflow: hidden;
+}
+
+.bounding h5{
+    width: fit-content;
+   
+    overflow: hidden;
+}
+
+.bounding .boundingelem {
+    transform: translateY(100%);
+}
+
+.bounding .boundingelem h5{
+    transform: translateY(100%);
+}
+
+#minicircle{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    pointer-events: none;
+    z-index: 999;
+    transition: all ease;
+
+}
+
+
+.main{
+    width: 100%;
+    position: relative;
+}
+
+.homepage{
+    width: 100%;
+    height: 100vh;
+}
+
+.one{
+    color: white;
+    text-decoration: none;
+    font-family: 'General Sans';
+}
+
+.two{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'General Sans';
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 1vw;
+}
+
+.block{
+    margin-top: 6vw;
+}
+
+.block h1{
+    text-transform: uppercase;
+    opacity: .7;
+    line-height: 1;
+    color: white;
+    font-size: 7vw;
+    margin-left: 30px;
+    font-family: 'General Sans';
+    
+    
+    
+}
+
+
+.heading2 h1{
+    color: white;
+    font-size: 7vw;
+    margin-left: 100px;
+    margin-bottom: 2px;
+    font-family: 'General Sans';
+}    
+
+.heading2 h5{
+    color: white;
+    align-items: right;
+    font-family: 'General Sans';
+    opacity: .7;
+
+}
+
+.heading2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+
+.links{
+    display: flex;
+    margin-top: 360px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 300px 20px;
+    
+    
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    font-family: 'General Sans';
+}
+
+.links svg{
+    width: 30px;
+}
+
+.lastlink{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section h1{
+    color: #fff;
+    font-family: 'General Sans';
+    opacity: .7;
+    font-size: 5vw;
+    text-transform: uppercase;
+    padding: 3vw 2vw;
+   
+}
+
+.section h5{
+    color: #fff;
+    font-family: 'General Sans';
+    opacity: .8;
+    padding-right: 1.8vw;
+}
+
+.section{
+    margin-top: 200px;
+}
+
+
+
+.section div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    width: 94%;
+    position: relative;
+}
+
+.elemlast{
+    border-bottom: 1px solid #fff;
+}
+
+.section img{
+    width: 300px;
+    opacity: 0;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+   
+}
+
+
+.about{
+    margin-top: 5vw;
+    display: flex;
+    gap: 30px;
+    margin-left: 30vw;
+    margin-right: 20vw;
+   
+}
+.aboutimg img{
+    width: 250px;
+}
+
+.abouttext{
+    color: #fff;
+    font-family: 'General Sans';
+
+}
+
+.abouttext h5{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.abouttext p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 2vw;
+}
+
+.abouttext a{
+    
+    text-decoration: none;
+    color: #fff;
+    border-radius: 100px;
+    padding: 1vw  1.5vw;
+    border: 1px solid #fff;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.lastheading{
+    margin-top: 10vw;
+    margin-left: 2vw;
+}
+
+.lastheading h5{
+    color: #fff;
+    text-transform: uppercase;
+    opacity: .7;
+    font-family: 'General Sans';
+}
+
+.lastheading a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: 'General Sans';
+}
+
+.lastheading svg{
+    width: 25px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left{
+    color: #fff;
+    display: flex;
+    font-family: 'General Sans';
+    gap: 2px;
+
+}
+
+.left svg{
+    color: #fff;
+    width: 15px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.right a{
+   
+    text-decoration: none;
+    color: #fff;
+    font-family: 'General Sans;
+}
+
+.titleimg{
+    width: 10px;
+    border-radius: 50%;
+}
